@@ -1,0 +1,67 @@
+*{
+    font-family: 'Heebo', sans-serif;
+
+}
+
+body{
+    background: url(images/background.jpg),#ffffffde;
+    background-size: cover;
+    background-blend-mode: screen;
+    text-align: center;
+    margin: 0;
+}
+
+header{
+    width: 70%;
+    margin: auto;
+}
+
+
+header>h1{
+    color: #6d1818;
+    font-size: 3em;
+    margin: 0;
+}
+
+header>p{
+    font-size: 0.9em;
+}
+
+header>p>span{
+    font-size: 0.7em;
+    color: gray;
+}
+
+
+form{
+    text-align: center;
+    direction: rtl;
+    background: #80808085;
+    padding: 31px 0;
+}
+
+input{padding: 10px;border-radius: 9px;border: none;margin: 8px;width: 200px;}
+
+input[type="text"]{width: 500px;}
+input[type="submit"]:hover{background: black; color: white;cursor: pointer;}
+
+.cookie{
+    width: 200px;
+    height: 150px;
+    background: url("images/cookie.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+}
+
+.cookie>p{
+    position: absolute;
+    top: 26px;
+    right: 13px;
+    width: 90px;
+    font-size: 14px;
+    text-align: right;
+    font-weight: bold;
+}
